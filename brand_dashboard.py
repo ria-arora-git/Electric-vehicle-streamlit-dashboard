@@ -122,8 +122,7 @@ if not df_filtered.empty:
         "acceleration_0_100_s",
         "range_km",
         "battery_capacity_kWh",
-        "cargo_volume_l",
-        "seats"
+        "cargo_volume_l"
     ]
     radar_df = df_filtered[["model"] + radar_cols].dropna()
 
